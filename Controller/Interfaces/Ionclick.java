@@ -1,9 +1,19 @@
 package Controller.Interfaces;
 
-import java.awt.Component;
+
+
+
+
+import javax.swing.JFrame;
+
+import javax.swing.text.JTextComponent;
+
+import Controller.TextAreaController;
+
 
 public interface Ionclick {
     void OnClick();
-    void OnClick(String text ,Component window);
+    void OnClick(String text ,JFrame window,JTextComponent Component);
+   // void OnClick(String text ,JFrame window,TextAreaController Component);
 
 }
